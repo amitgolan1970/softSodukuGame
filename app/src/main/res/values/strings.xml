@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Soft Sudoku</string>
+    <string name="rounds">rounds</string>
+    <string name="again">Again</string>
+    <string name="end_message">endMessage</string>
+</resources>

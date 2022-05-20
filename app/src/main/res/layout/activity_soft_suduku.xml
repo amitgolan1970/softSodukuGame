@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/sudukuId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SoftSudukuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR0C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR0C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 2 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR1C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR1C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 3 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR2C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR2C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 4 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR3C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR3C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 5 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR4C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR4C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 6 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR5C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR5C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 7 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR6C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR6C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 8 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR7C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR7C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 9 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR8C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR8C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <!-- row 10 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:textDirection="ltr">
+
+        <Button
+            android:id="@+id/btnR9C0"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C1"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C2"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C3"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C4"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C5"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C6"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C7"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C8"
+            style="@style/custom_row_style" />
+
+        <Button
+            android:id="@+id/btnR9C9"
+            style="@style/custom_row_style" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvDigitId"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="2dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:padding="2dp"
+        android:textColor="@color/colorAccent"
+        android:textDirection="ltr"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/again"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:background="#E6EBE6"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:orientation="horizontal"
+        android:padding="1dp"
+        android:textDirection="ltr">
+
+        <TextView
+            android:id="@+id/tvTimerDisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp" />
+
+        <TextView
+            android:id="@+id/tvRoundsId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:gravity="center"
+            android:hint="@string/rounds" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tvScoreId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal" android:gravity="center"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
